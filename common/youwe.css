@@ -1,0 +1,88 @@
+/* flex */
+.frow {
+  flex-direction: row;
+}
+.fcol {
+  flex-direction: column;
+}
+.flex {
+  display: flex;
+}
+.f1 {
+  flex: 1;
+}
+.fstart {
+  align-self: flex-start;
+}
+.fend {
+  align-self: flex-end;
+}
+.fcnt {
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+.cntx {
+  justify-content: center;
+}
+.cnty {
+  align-items: center;
+}
+/* 微调 */
+.pd1 {
+  padding: 1rem;
+}
+.pd1l {
+  padding-left: 1rem;
+}
+.pd10 {
+  padding: 10px;
+}
+.mg1 {
+  margin: 1rem;
+}
+.mg1v {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+/* color */
+.bg-blue {
+  background-color: royalblue;
+  color: white;
+}
+.bg-white {
+  background-color: white;
+  color: black;
+}
+/* 文字对齐 */
+.tleft {
+  text-align: left;
+}
+.tcnt {
+  text-align: center;
+}
+.trit {
+  text-align: right;
+}
+p,
+blockquote {
+  text-align: justify;
+}
+p {
+  text-indent: 2rem;
+}
+/* border */
+.bd0 {
+  border: none;
+}
+
+/* comps */
+.pointer {
+  cursor: pointer;
+  transform: scale(1);
+  transition: transform 0.5s;
+}
+.pointer:hover {
+  transform: scale(1.1);
+  transition: transform 0.5s;
+}

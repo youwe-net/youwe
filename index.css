@@ -1,0 +1,79 @@
+header {
+  overflow: hidden;
+  background: linear-gradient(270deg, #43c6ac, #f8ffae);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+.ctx-container {
+  flex: 1;
+  min-width: 300px;
+  max-width: 1000px;
+  padding: 8px;
+  max-height: 100%;
+}
+.head {
+  flex-direction: row;
+}
+.title-txt {
+  padding: 0;
+  font-size: 1.8rem;
+  padding-left: 1rem;
+  color: yellow;
+  align-self: flex-end;
+}
+@media screen and (max-width: 420px) {
+  .head {
+    flex-direction: column;
+  }
+}
+.name-img {
+  width: 200px;
+  height: 64px;
+}
+.foot {
+  min-height: 6rem;
+}
+.content {
+  flex: 1;
+  box-shadow: 0px 0px 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: white;
+}
+.nav {
+  background-color: royalblue;
+  padding: 5px 10px;
+  font-size: 1.1rem;
+  margin-right: 8px;
+  box-shadow: 0px 0px 1px 2px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.6s, background-color 0.5s, color 0.5s;
+  cursor: pointer;
+  color: white;
+  text-decoration: none;
+}
+.nav:hover {
+  box-shadow: 0px 0px 2px 4px rgba(0, 0, 0, 0.2);
+  transition: box-shadow 0.6s, background-color 0.5s, color 0.5s;
+  background-color: red;
+  color: black;
+}
+.content > div {
+  /* min-height: 100vh; */
+  padding: 20px 10px;
+  border-bottom: 1px solid grey;
+}
+#totop {
+  width: 2rem;
+  height: 2rem;
+  line-height: 2rem;
+  text-align: center;
+  font-size: 1.5rem;
+  border-radius: 50%;
+  background-color: red;
+  color: white;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  display: none;
+}
+.comp-major{
+  line-height: 2;
+  font-size: 1rem;
+}
